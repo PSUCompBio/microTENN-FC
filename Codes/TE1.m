@@ -2,7 +2,10 @@
 %Anjali Dhobale afd5230@psu.edu
 %Refer Paper: Accesssing the Functional Connectivity of Micro-Tisse
 %Engineered Neural Networks using Calcium Fluorescence Signals
-%This code calculates the Transfer Entropy matrix using the JIDT toolbox
+%This MATLAB code calculates the Transfer Entropy matrix using the JIDT toolbox
+
+%%Add your path to JIDT folder and calcium signal dataset
+%%Change line 27-30, to change the window being fitted for TE signals
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
