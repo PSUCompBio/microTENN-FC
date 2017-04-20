@@ -5,7 +5,6 @@ Documentation for MicroTENN Functional Analysis
 
 Visualizing Calcium Imaging Activity from .tiff stack using FluoroSNNAP
 1.	In the MATLAB workspace, “playTIFFstack.m” script can be used to play the .tiff stack and visualize the calcium activity in video player.
-2.	Example “fnc_9div_50ms.tiff” is Micro-TENN Sample tiff stack has been provided to visualize calcium activity
 
 Extracting Calcium Imaging Signals from .tiff stack using FluoroSNNAP
 
