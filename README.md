@@ -27,7 +27,7 @@ Crosscorrelation, Phase Synchronization and Power Spectrum Analysis
 
 Estimating the Directed Transfer Function Matrices using EEGLAB software
 
-1.	Download the EEGLAB_13 folder containing the SIFT plugin from the  Github directory. This software is compatible with MATLAB 2012a or 2013b version available on the Hammer PSU system  and load the EEGLAB directory to MATLAB workspace.  Additional detailed sources is available at: https://sccn.ucsd.edu/wiki/EEGLAB 
+1.	Download the EEGLAB toolbox with SIFT plugin from the https://sccn.ucsd.edu/wiki/EEGLAB. Load the EEGLAB directory to MATLAB workspace. 
 2.	Type “EEGLAB” in the command line to load the graphical user interface. Load the ‘ut_d5_40hz_14left.mat’ dataset and define the data acquisition parameters. Once the data has been loaded, it is ready to be processed. 
 3.	SIFT can be started from the Tools   SIFT menu. The sub-menu options correspond to SIFT’s four main modules we used: Pre-Processing, Model Fitting, Validation and Connectivity. Complete each of these modules to fit the MVAR model on the dataset and calculate the NDTF connectivity matrices.
 4.	Once the SIFT processing is complete, save the workspace. An example workspace “mvari4.mat” is available for convenience. Run the “PostEEGLABProcessing.m” script to get a neat visual of the nDTF matrices. The nDTF matrices can be found in  EEG.CAT.Conn.nDTF subfolder of the MATLAB workspace. 
