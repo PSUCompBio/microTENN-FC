@@ -2,15 +2,16 @@
 %Anjali Dhobale afd5230@psu.edu
 %Refer Paper: Accesssing the Functional Connectivity of Micro-Tisse
 %Engineered Neural Networks using Calcium Fluorescence Signals
-%This code displays the nDTF plots obtained from the EEGLAB data file.
+%This MATLAB code displays the nDTF plots obtained from the EEGLAB data file.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %load EEGLAB datafile
-load mvari4.mat
 nDTF4 = EEG.CAT.Conn.nDTF;
 
 GGCm = nDTF4;
 
+%%Seperating the DTF matrices by frequency
+%%Third dimension is Frequency in Hz
 GGCm1 = GGCm(:,:,1);
 GGCm2 = GGCm(:,:,2);
 GGCm3 = GGCm(:,:,3);
