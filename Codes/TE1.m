@@ -9,7 +9,7 @@
 
 clear,clc
 javaaddpath('/Users/AnjaliDhobale/Google Drive/Research/TransferEntropy/infodynamics-dist-1.3.1/infodynamics.jar');
-load('/Users/AnjaliDhobale/Google Drive/Research/MendeleyDataUpload/ut_d5_40hz_14left.mat');
+load('/Users/AnjaliDhobale/Google Drive/Research/ut_d5_40hz_14left.mat');
 Data=dc4left14;
 NS=size(Data,1);
 NO=size(Data,2);
