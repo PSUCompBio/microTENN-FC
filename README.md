@@ -1,5 +1,5 @@
 # microTENN-FC
-MicroTENN Functional Connectivity Codes
+## MicroTENN Functional Connectivity Codes
 
 Documentation for MicroTENN Functional Analysis
 
